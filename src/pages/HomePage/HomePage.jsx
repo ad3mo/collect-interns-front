@@ -1,15 +1,17 @@
 import React from 'react'
-import Navbar from '../../components/Navbar'
+import MainLayout from '../../components/MainLayout'
 import Hero from './components/Hero'
 
 const HomePage = () => {
   return (
+    <MainLayout>
     <div className='bg-primary-gray h-screen'>
 
-      <Navbar/>
+      
       <Hero />
       
     </div>
+    </MainLayout>
   )
 }
 

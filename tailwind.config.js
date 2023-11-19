@@ -8,6 +8,9 @@ module.exports = {
         "primary-green": "#14CF9E",
         "primary-gray": "#F3F3F3",
       },
+      fontFamily: {
+        roboto: ["Roboto", "sans-serif"],
+      },
     },
   },
   plugins: [],
