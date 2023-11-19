@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.primary-blue-btn {
+  @apply cursor-pointer border-primary-blue border-2 text-primary-blue py-2 px-8 rounded-full font-semibold hover:bg-primary-blue hover:text-white duration-150;
+}
+
+.primary-green-btn {
+  @apply cursor-pointer bg-primary-green border-2  border-primary-green text-white py-2 px-8 rounded-full font-semibold hover:bg-white hover:text-primary-green duration-150;
+}
