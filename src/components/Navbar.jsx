@@ -5,7 +5,7 @@ const Navbar = () => {
     const [open , setOpen] = useState(false)
     const handleClick = () => setOpen(!open)
   return (
-    <section className='sticky h-[80px] top-0 left-0 right-0 z-50 '>
+    <section className='sticky h-[80px] top-0 left-0 right-0 z-50'>
         <header className='bg-white px-8 flex justify-between py-4  items-center'>
             <Link to={"/"}>
             <div className='ml-2 cursor-pointer text-2xl text-primary-blue font-bold uppercase'>Stage Embauche</div>
@@ -19,7 +19,7 @@ const Navbar = () => {
                 </Link>
                 <Link to={"/register"}>
                 <button className='primary-green-btn'>Inscription</button>
-                </Link>
+                </Link> 
             </div>
         </header>
     </section>

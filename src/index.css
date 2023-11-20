@@ -13,3 +13,7 @@
 .primary-green-btn {
   @apply cursor-pointer bg-primary-green border-2  border-primary-green text-white py-2 px-8 rounded-full font-semibold;
 }
+
+.input-blue {
+  @apply border-2 border-primary-blue py-2 px-3 rounded-2xl flex;
+}
