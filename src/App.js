@@ -9,7 +9,7 @@ import Feed from "./pages/Feed";
 
 function App() {
   return (
-    <div className="App font-roboto bg-primary-gray">
+    <div className="App font-roboto bg-primary-gray ">
       <Router>
         <Routes>
           <Route index path="/" element={<HomePage />} />
