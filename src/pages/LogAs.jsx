@@ -2,7 +2,7 @@ import React from 'react'
 
 const LogAs = () => {
   return (
-    <section className='h-screen bg-primary-gray flex justify-center items-center'>
+    <section className='h-screen bg-primary-blue flex justify-center items-center'>
          <p className='absolute top-[15%] text-3xl text-primary-blue font-bold'> Qui Etes Vous ?</p>
         <div className='flex w-full h-[600px] px-8'>
            
@@ -14,7 +14,7 @@ const LogAs = () => {
                     </p>
                     <p className='font-light'>A la recherche d'un stage.</p>
                 </div>
-                <button className='primary-blue-btn'>S'identifier comme stagiers</button>
+                <button className='primary-blue-btn'>S'identifier</button>
                 </div>
             </div>
             <div className='bg-primary-green w-1/2 rounded-3xl  flex flex-col justify-center px-8'>
@@ -25,7 +25,7 @@ const LogAs = () => {
                     </p>
                     <p className='font-light'>A la recherche des stagiers.</p>
                 </div>
-                <button className='primary-white-btn'>S'identifier comme organisation</button>
+                <button className='primary-white-btn'>S'identifier</button>
                 </div>
             </div>
         </div>

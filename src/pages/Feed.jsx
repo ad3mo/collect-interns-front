@@ -1,6 +1,6 @@
 import React from "react";
 import MainLayout from "../components/MainLayout";
-import CombinedCard from "../components/CombinedCard";
+import ViewCard from "../components/ViewCard";
 import isimm from "../assets/logoisimm.png";
 
 const generateDummyData = () => {
@@ -22,7 +22,7 @@ const Feed = () => {
       <MainLayout>
         <div className="bg-white mt-8 mx-auto w-[80%] lg:w-[70%] p-8 flex flex-col gap-6">
           {items.map((item, index) => (
-            <CombinedCard
+            <ViewCard
               key={index}
               img={item.img}
               title={item.title}

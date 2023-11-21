@@ -1,23 +1,16 @@
-import React from 'react'
+import React from "react";
 
-import MainLayout from '../../components/MainLayout'
-import Hero from './components/Hero'
+import MainLayout from "../../components/MainLayout";
+import Hero from "./components/Hero";
 
 const HomePage = () => {
-
-  
-
   return (
     <MainLayout>
-    <div className='bg-primary-gray h-screen'>
-
-      
-      <Hero />
-      <button className='primary-blue-btn'>Get Started</button>
-      
-    </div>
+      <div className="bg-primary-blue h-screen flex justify-center items-center">
+        <Hero />
+      </div>
     </MainLayout>
-  )
-}
+  );
+};
 
-export default HomePage
+export default HomePage;
