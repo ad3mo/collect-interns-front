@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { Link } from "react-router-dom";
+import Header from "./Header";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const handleClick = () => setOpen(!open);
@@ -28,6 +29,7 @@ const Navbar = () => {
           </Link>
         </div>
       </header>
+      <Header/>
     </section>
   );
 };

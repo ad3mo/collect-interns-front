@@ -5,7 +5,8 @@ import RegisterPage from "./pages/RegisterPage";
 import LoginPage from "./pages/LoginPage";
 import ProfilePage from "./pages/ProfilePage";
 import LogAs from "./pages/LogAs";
-import Feed from "./pages/Feed";
+import Feed from "./pages/FeedPage/Feed";
+import ApplicationsPage from "./pages/ApplicationsPage";
 
 function App() {
   return (
@@ -13,10 +14,11 @@ function App() {
       <Router>
         <Routes>
           <Route index path="/" element={<HomePage />} />
-          <Route path="/feed" element={<Feed />} />
           <Route path="/logas" element={<LogAs />} />
-          <Route path="/register" element={<RegisterPage />} />
           <Route path="/login" element={<LoginPage />} />
+          <Route path="/register" element={<RegisterPage />} />
+          <Route path="/feed" element={<Feed />} />
+          <Route path="/applications" element={<ApplicationsPage />} />
           <Route path="/profile" element={<ProfilePage />} />
         </Routes>
       </Router>

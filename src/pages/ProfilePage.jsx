@@ -1,8 +1,11 @@
 import React from 'react'
+import MainLayout from '../components/MainLayout'
 
 const ProfilePage = () => {
   return (
-    <div>ProfilePage</div>
+    <MainLayout>
+      <h1>Profile</h1>
+    </MainLayout>
   )
 }
 

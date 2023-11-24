@@ -5,7 +5,7 @@ const PostCard = (props) => {
   return (
     <div
       onClick={onOpen}
-      className="shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] p-4 rounded-2xl cursor-pointer lg:cursor-default overflow-hidden max-lg:flex-col lg:flex-row flex items-center lg:justify-between lg:gap-4 "
+      className=" p-4 rounded-2xl cursor-pointer lg:cursor-default overflow-hidden max-lg:flex-col lg:flex-row flex items-center lg:justify-between lg:gap-4 "
     >
       <div className=" basis-1/4">
         <img

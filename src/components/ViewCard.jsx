@@ -23,7 +23,7 @@ const ViewCard = (props) => {
     <>
       <div
         onClick={openModal}
-        className="shadow-lg p-4 rounded-2xl cursor-pointer lg:cursor-default overflow-hidden max-lg:flex-col lg:flex-row flex items-center lg:justify-between lg:gap-4 bg-white"
+        className="shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-4 rounded-2xl cursor-pointer lg:cursor-default overflow-hidden max-lg:flex-col lg:flex-row flex items-center lg:justify-between lg:gap-4 bg-white"
       >
         <div className="basis-1/4">
           <img

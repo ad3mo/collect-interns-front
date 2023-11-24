@@ -1,7 +1,7 @@
 import React from "react";
-import MainLayout from "../components/MainLayout";
-import ViewCard from "../components/ViewCard";
-import isimm from "../assets/logoisimm.png";
+import MainLayout from "../../components/MainLayout";
+import ViewCard from "../../components/ViewCard";
+import isimm from "../../assets/logoisimm.png";
 
 const generateDummyData = () => {
   return Array.from({ length: 6 }, (_, index) => ({
@@ -18,7 +18,7 @@ const Feed = () => {
   const items = initialData;
 
   return (
-    <div className="h-auto w-screen overflow-hidden">
+    
       <MainLayout>
         <div className="bg-white mt-8 mx-auto w-[80%] lg:w-[70%] p-8 flex flex-col gap-6">
           {items.map((item, index) => (
@@ -28,11 +28,12 @@ const Feed = () => {
               title={item.title}
               name={item.name}
               desc={item.desc}
+              type="feed"
             />
           ))}
         </div>
       </MainLayout>
-    </div>
+   
   );
 };
 
