@@ -3,7 +3,7 @@ import { FaInstagram, FaFacebook, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="h-[250px] bg-primary-green ">
+    <footer className="h-[250px] bg-primary-green">
       <div className='mx-auto max-w-screen-xl p-4 py-6 lg:py-8 flex flex-col md:flex-row items-center justify-center md:justify-between'>
         
         
@@ -23,13 +23,13 @@ const Footer = () => {
 
          
           <div className='flex items-center space-x-4 text-2xl bg-primary-green '>
-            <a href='#' target='_blank' rel='noopener noreferrer'>
+            <a href='/' target='_blank' rel='noopener noreferrer'>
               <FaInstagram className='text-white hover:text-primary-blue' />
             </a>
-            <a href='#' target='_blank' rel='noopener noreferrer'>
+            <a href='/' target='_blank' rel='noopener noreferrer'>
               <FaFacebook className='text-white hover:text-primary-blue' />
             </a>
-            <a href='#' target='_blank' rel='noopener noreferrer'>
+            <a href='/' target='_blank' rel='noopener noreferrer'>
               <FaLinkedin className='text-white hover:text-primary-blue' />
             </a>
           </div>

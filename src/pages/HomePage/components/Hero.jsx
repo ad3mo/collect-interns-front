@@ -4,7 +4,7 @@ import heroPng from "../../../assets/heropng.png";
 
 const Hero = () => {
   return (
-    <section className="container w-[90%] mx-auto flex flex-col justify-center items-center p-10 lg:flex-row bg-white rounded-xl">
+    <section className="container w-[90%] mx-auto flex flex-col justify-center items-center p-10 lg:flex-row bg-white rounded-xl h-full">
       <div className="mt-10 mx-auto lg:mx-0 lg:w-1/2">
         <h1 className="text-3xl font-bold text-primary-blue text-center md:text-5xl lg:text-left max-w-[540px]">
           Facilement Trouver Le
